@@ -1,0 +1,105 @@
+  <h1>Number system conversion</h1>
+
+<noscript>
+    <div style="border: 2px solid red; padding: .2em; margin: 1em">
+     
+    </div>
+</noscript>
+
+<form id="conversion">
+
+<table class="horizontal">
+<tbody><tr>
+<th scope="row"><label for="base10">Decimal (10)</label></th>
+<td><input type="text" name="base10" id="base10" accesskey="D" size="18" oninput="numberOnInput(this)" maxlength="15"></td>
+</tr>
+
+<tr>
+<th scope="row"><label for="base16">Hex (16)</label></th>
+<td><input type="text" name="base16" id="base16" accesskey="H" size="18" oninput="numberOnInput(this)" maxlength="12"></td>
+</tr>
+
+<tr>
+<th scope="row"><label for="base8">Octal (8)</label></th>
+<td><input type="text" name="base8" id="base8" accesskey="O" size="18" oninput="numberOnInput(this)" maxlength="16"></td>
+</tr>
+
+<tr>
+<th scope="row"><label for="base2">Binary (2)</label></th>
+<td><input type="text" name="base2" id="base2" accesskey="B" size="32" oninput="numberOnInput(this)" maxlength="48"></td>
+</tr>
+
+</tbody></table>
+
+</form>
+
+<script type="text/javascript" src="project.js"></script>
+<div id="banner">
+<div></div></div></div></div></body></html>
+<head>
+<link rel="stylesheet" href="hc.css">
+</head>
+
+<div class="header">
+
+  <label for="mpo-modal-controller" class="btn">Click here if you can't get answer</label>
+</div>
+
+<div class="mpo-modal">
+  <input type="checkbox" id="mpo-modal-controller" class="mpo-modal-open" hidden>
+  <div class="mpo-modal-wrap">
+    <label for="mpo-modal-controller" class="mpo-modal-overlay"></label>
+    <div class="mpo-modal-body">
+
+      <label for="mpo-modal-controller" class="mpo-modal-close">&times;</label>
+
+      <input type="radio" name="content-nav" id="modal-content-1" class="modal-radio" checked hidden/>
+      <input type="radio" name="content-nav" id="modal-content-2" class="modal-radio" hidden/>
+      <input type="radio" name="content-nav" id="modal-content-3" class="modal-radio" hidden/>
+      
+
+      <div class="mpo-modal-slide content-1">
+        <div class="mpo-modal-content">
+          <h2>Binary number(2)</h2>
+          <p>
+            In mathematics and digital electronics, a binary number is a number expressed in the base-2 numeral system or binary numeral system, which uses only two symbols: typically "0" (zero) and "1". So when typing a binary number you can use only numbers 0 and 1.
+          </p>
+
+          <div class="mpo-modal-nav">
+            <label for="modal-content-2" class="next-slide">&#8250;&#8250;</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="mpo-modal-slide content-2">
+        <div class="mpo-modal-content">
+          <h2>Hexadecimal(16) and decimal(10)</h2>
+          <p>
+          The hexadecimal numeral system, often shortened to "hex", is a numeral system made up of 16 symbols (base 16). The standard numeral system is called decimal (base 10) and uses ten symbols: 0,1,2,3,4,5,6,7,8,9. Hexadecimal uses the decimal numbers and six extra symbols these extra symbols are A,B,C,D,E and F .
+          </p>
+
+          <div class="mpo-modal-nav">
+            <label for="modal-content-1" class="prev-slide">&#8249;&#8249;</label>
+            <label for="modal-content-3" class="next-slide">&#8250;&#8250;</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="mpo-modal-slide content-3">
+        <div class="mpo-modal-content">
+          <h2>Octal number(8)</h2>
+          <p>
+            The octal numeral system, or oct for short, is the base-8 number system, made up of 8 symbols and uses the digits 0 to 7. 
+          </p>
+
+          <div class="mpo-modal-nav">
+            <label for="modal-content-2" class="prev-slide">&#8249;&#8249;</a>
+          </div>
+        </div>
+      </div>
+ 
+            
+
+    </div>
+  </div>
+</div>
