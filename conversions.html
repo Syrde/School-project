@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+
  
   <script>
+
   function calculate()
   {
   var selectInput = document.getElementById("type1");
@@ -46,7 +48,19 @@
         digitFinal = digitDecimal;
       }
       document.getElementById("result").innerHTML = digitFinal;
-  }
+  
+  var digitDecimal = parseInt(n, baseNumber);
+      var digitFinal;
+      
+  if (!isNaN(digitDecimal )) {
+  
+} else {
+     alert("your number does not belong to  "  + selectInput.options[selectInput.selectedIndex].value +  " numbers ")
+    }
+    }
+    
+ 
+    
 
 
   </script>
@@ -84,4 +98,4 @@
 
 </div>
 </body>
-</html>
+</html>      
